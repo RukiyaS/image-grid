@@ -20,16 +20,16 @@ body {
   margin: 0;
 }
 
+.photo {
+  display: flex;
+}
+
 .photo:nth-child(2) {
   display: none;
 }
 
 .photo:nth-child(5) {
   display: none;
-}
-
-.photo {
-  display: flex;
 }
 
 img {
